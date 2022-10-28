@@ -1,8 +1,74 @@
-h1{
-    background-color: aqua;
-    color: black;
+h1 {
+    margin: 0px;
+    object-fit: fill;
+    text-align: center;
+    background-color: #849696;
 }
 
-p{
-    color: brown;
+body {
+    margin: 0px;
+    padding: 0px;
 }
+
+nav a {
+    color: white;
+    font-size: 35px;
+   
+}
+
+nav a:link {
+    transition: transform .2s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #DEE3E3;
+    
+}
+
+#logo {
+    object-fit: fill;
+    max-width: 80px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background-color: #849696;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+
+
+}
+
+.nav-item {
+    max-width: 15%;
+    margin: 3%;
+}
+
+#nav-item-left {
+    max-width: 50%;
+    text-align: end;
+    margin: 3%;
+}
+
+#nav-item-right {
+    max-width: 50%;
+    text-align: start;
+    margin: 3%;
+}
+
+#nav-item-right a {
+    margin-right: 20px;
+}
+
+#post-user-ungerade {
+    background-color: #E3E0DE;
+}
+
+#post-user-gerade {
+    background-color: #DEE3E3;
+}
+
+/* Farben: #849696 #FFFFFF #DEE3E3 #968275 #E3E0DE */
