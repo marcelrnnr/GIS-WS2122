@@ -6,14 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suche</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img src="/Stockmaterial/Logo.png" alt="Logo"></a>
+        <nav id="navbar">
+            <div id="nav-item-left">
+                <a class="navelement" href="neuerBeitrag.html"><b>Beitrag erstellen </b></a>
+            </div>
+            <div class="nav-item">
+                <a href="index.html"><img id="logo" src="/Stockmaterial/Logo.png" alt="Logo"></a>
+            </div>
+            <div id="nav-item-right"><a class="navelement" href="suche.html"><b>Suche</b></a>
+                <a class="navelement" href="login.html"><b>Login</b></a>
+            </div>
+        </nav>
+        <a class="title" href="index.html">
+            <h1>Blog of Skaters</h1>
+        </a>
     </header>
+
     <main>
-        <h1>Wonach möchtest du suchen?</h1>
+        <h2>Wonach möchtest du suchen?</h2>
         <label for="suche">Suchbegriff eingeben</label>
         <input id="suche" type="search" placeholder="Suche...">
     </main>

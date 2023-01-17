@@ -6,33 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beitrag erstellen</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <div>
-            <nav>
-                <a href="neuerBeitrag.html">Beitrag erstellen</a>
-                <a href="index.html"><img src="/Stockmaterial/Logo.png" alt="Logo"></a>
-                <a href="suche.html">Suche</a>
-                <a href="login.html">Login</a>
-            </nav>
-        </div>
+        <nav id="navbar">
+            <div id="nav-item-left">
+                <a class="navelement" href="neuerBeitrag.html"><b>Beitrag erstellen </b></a>
+            </div>
+            <div class="nav-item">
+                <a href="index.html"><img id="logo" src="/Stockmaterial/Logo.png" alt="Logo"></a>
+            </div>
+            <div id="nav-item-right"><a class="navelement" href="suche.html"><b>Suche</b></a>
+                <a class="navelement" href="login.html"><b>Login</b></a>
+            </div>
+        </nav>
+        <a class="title" href="index.html">
+            <h1>Blog of Skaters</h1>
+        </a>
     </header>
+
     <main>
-        <h1>Beitrag erstellen</h1>
+        <div class="beitrag-erstellen-container"> 
+        <h2>Beitrag erstellen</h2>
         <form>
-            <label for="title">Titel: </label>
-            <input id="title" type="text">
+            <div class="create-title">
+                <label for="title">Titel: </label>
+            </div>
+            <div class="input-title">
+                <input id="title" type="text">
+            </div>
             <br>
-            <label for="describtion">Beschreibung: </label>
-            <input id="describtion" type="text">
+            <div class="create-description">
+                <label for="describtion">Beschreibung: </label>
+            </div>
+            <div class="description-input">
+                <input id="describtion" type="text">
+            </div>
             <br>
-            <label for="files">Bild/Video: </label>
-            <input id="files" type="file">
+            <div class="upload-files">
+                <label for="files">Bild/Video: </label>
+            </div>
+            <div class="input-files">
+                <input id="files" type="file">
+            </div>
             <br>
-    
         </form>
+    </div>
     </main>
     <footer>
         <hr>
